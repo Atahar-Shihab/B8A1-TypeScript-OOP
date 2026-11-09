@@ -9,7 +9,7 @@ This repository contains the solutions and technical blog posts for **Assignment
 ```text
 ├── solutions.ts
 ├── type-vs-interface.md
-├── type-narrowing.md
+├── union-and-intersection.md
 └── README.md
 ```
 
@@ -37,8 +37,8 @@ Read the two technical blog posts included in this repository:
 1. [**Differences Between Type Aliases and Interfaces in TypeScript**](./type-vs-interface.md)  
    *An in-depth guide explaining declaration merging, type extension vs. intersection, primitive/union flexibility, and when to use each.*
 
-2. [**Understanding Type Narrowing in TypeScript**](./type-narrowing.md)  
-   *A beginner-friendly guide exploring how TypeScript narrows union types safely at runtime using `typeof`, `instanceof`, and the `in` operator.*
+2. [**Combining Union and Intersection Types in TypeScript**](./union-and-intersection.md)  
+   *A beginner-friendly practical guide demonstrating how to combine union (`|`) and intersection (`&`) types to model real-world user roles safely.*
 
 ---
 
