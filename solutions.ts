@@ -21,3 +21,11 @@ function formatCoordinate(
   const [latitude, longitude, locationName] = coordinate;
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+  const result: T[] = [];
+  for (const array of arrays) {
+    result.push(...array);
+  }
+  return result;
+}
